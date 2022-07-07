@@ -38,7 +38,7 @@ const EmployeeList = () => {
             <div>
               <img
                 style={styles.img}
-                src={`http://reactjs-directory.herokuapp.com/pics/${emp?.firstName}_${emp?.lastName}.jpg`}
+                src={`https://reactjs-directory.herokuapp.com/pics/${emp?.firstName}_${emp?.lastName}.jpg`}
                 alt={`${emp.firstName} ${emp.lastName}`}
               />
             </div>

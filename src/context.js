@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const API_URL = 'http://reactjs-directory.herokuapp.com/employees';
+const API_URL = 'https://reactjs-directory.herokuapp.com/employees';
 
 export const AppContext = React.createContext();
 

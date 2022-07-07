@@ -31,7 +31,7 @@ const EmployeeDetail = () => {
   const getEmployee = async () => {
     try {
       const res = await fetch(
-        `http://reactjs-directory.herokuapp.com/employees/${id}`
+        `https://reactjs-directory.herokuapp.com/employees/${id}`
       );
       const data = await res.json();
       setEmp(data);
@@ -47,7 +47,7 @@ const EmployeeDetail = () => {
       <div style={styles.main}>
         <img
           style={styles.img}
-          src={`http://reactjs-directory.herokuapp.com/pics/${emp?.firstName}_${emp?.lastName}.jpg`}
+          src={`https://reactjs-directory.herokuapp.com/pics/${emp?.firstName}_${emp?.lastName}.jpg`}
           alt={emp.firstName}
         />
         <h2>
